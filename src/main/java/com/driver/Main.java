@@ -17,10 +17,12 @@ class B extends A {
 }
 public class Main {
      public static void main(String[] args) {
-        B obj = new B();
+            B b = new B();
+        b.meth();
 
-        // calling overridden method meth of class B
-       obj.meth();
+        B b1 = new B();
+        b1.meth();
+
 
 
     }
