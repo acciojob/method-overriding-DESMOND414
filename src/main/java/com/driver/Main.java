@@ -10,7 +10,7 @@ class A {
 // Task 2: create class B which extends class A
 class B extends A {
     // Task 4: override method meth in class B
-  @Override
+ 
     public String meth() {
         return "Method is overridden in Extended class B";
     }
