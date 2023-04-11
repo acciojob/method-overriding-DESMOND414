@@ -20,7 +20,7 @@ public class Main {
         B obj = new B();
 
         // calling overridden method meth of class B
-        System.out.println(obj.meth());
+       obj.meth();
 
 
     }
