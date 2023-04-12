@@ -8,7 +8,6 @@ public class Main {
         return "Invoking method from class A";
     }
 }
-
    public static class B extends A {
   
    @Override
